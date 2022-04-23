@@ -1,0 +1,90 @@
+.keyboard {
+  opacity: 0.6;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 50px 50px 50px 50px;
+  border-radius: 25px;
+}
+
+.keyboard button {
+  border: none;
+  padding: 0.5em;
+  margin: 1px;
+  height: 50px;
+  font-size: x-large;
+}
+
+.output {
+  grid-column: 1 / -1;
+  background-color: rgb(77, 76, 89);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+  color: white;
+
+  height: 40px;
+  font-size: xx-large;
+}
+
+.ocupa2 {
+  grid-column: span 2;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #434660;
+}
+
+.operator {
+  background-color: #fa9d29;
+  color: white;
+  cursor: pointer;
+}
+
+.number {
+  background-color: #67808c;
+  color: white;
+  cursor: pointer;
+}
+
+.secondaryOperator {
+  background-color: #576d7a;
+  color: white;
+  cursor: pointer;
+}
+
+.cournerLeftBottom {
+  border-radius: 0px 0px 0px 10px;
+}
+.cournerRightBottom {
+  border-radius: 0px 0px 10px 0px;
+}
+
+.fakeButtons {
+  grid-column: 1 / -1;
+  background-color: rgb(77, 76, 89);
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px 10px 0px 0px;
+  height: 8px;
+}
+
+.fakeButton {
+  flex: 0 1 auto;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 100%;
+  width: 8px;
+  margin: 1px;
+  padding: 0px;
+  border: none;
+}
