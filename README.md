@@ -4,6 +4,12 @@
 [Enunciado do Projecto](https://furry-firefly-24d.notion.site/Projeto-Calculadora-189f21e6f78d4ba1a7e50978713e48a9
 )
 
-![Example](https://github.com/ricardogouvjava/Projecto_Calculadora/blob/main/example.jpg)
 
-[<img https://github.com/ricardogouvjava/Projecto_Calculadora/blob/main/example.jpg width="50%">](https://github.com/ricardogouvjava/Projecto_Calculadora/blob/main/2022-04-24%2020-57-15-63.mp4 "Example")
+
+
+
+## Layout
+![Image](https://github.com/ricardogouvjava/Projecto_Calculadora/blob/main/example.jpg)
+
+## Exemplo de funcionamento
+https://user-images.githubusercontent.com/97111189/164995133-f051dc08-be06-4eac-9554-c27eb2947f74.mp4
