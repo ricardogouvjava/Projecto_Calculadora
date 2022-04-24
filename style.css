@@ -1,19 +1,43 @@
+body {
+  background-image: url("walpaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  opacity: 0.8;
+  width: 260px;
+}
+
 .keyboard {
-  opacity: 0.6;
   margin: auto;
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-columns: 25% 25% 25% 25%;
   border-radius: 25px;
 }
 
 .keyboard button {
+  opacity: 0.7;
   border: none;
   padding: 0.5em;
   margin: 1px;
+  font-size: large;
   height: 50px;
-  font-size: x-large;
+}
+
+.keyboard button:hover {
+  opacity: 1;
 }
 
 .output {
@@ -25,26 +49,25 @@
   flex-direction: column;
   padding: 10px;
   word-wrap: break-word;
-  word-break: break-all;
   color: white;
-
   height: 40px;
-  font-size: xx-large;
+  text-align: right;
 }
 
-.ocupa2 {
-  grid-column: span 2;
+.small {
+  font-size: 40px;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #434660;
+.big {
+  font-size: 18px;
 }
-
 .operator {
+  background-color: #fa9d29;
+  color: white;
+  cursor: pointer;
+}
+
+.equals {
   background-color: #fa9d29;
   color: white;
   cursor: pointer;
@@ -76,6 +99,7 @@ main {
   flex-direction: row;
   border-radius: 10px 10px 0px 0px;
   height: 8px;
+  padding: 3px 4px;
 }
 
 .fakeButton {
